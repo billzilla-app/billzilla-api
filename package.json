@@ -1,0 +1,32 @@
+{
+  "name": "billzilla-api",
+  "version": "0.0.1",
+  "description": "API for Billzilla, a small bill-tracking application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/billzilla-app/billzilla-api.git"
+  },
+  "keywords": [
+    "bill",
+    "tracking",
+    "organization",
+    "payment"
+  ],
+  "author": "Kirk Bater",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/billzilla-app/billzilla-api/issues"
+  },
+  "homepage": "https://github.com/billzilla-app/billzilla-api#readme",
+  "dependencies": {
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.4",
+    "graphql": "^0.9.6"
+  }
+}
